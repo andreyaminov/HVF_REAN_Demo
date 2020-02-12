@@ -5,10 +5,10 @@
 #
 
 # Get Package Attributes defined in REAN
-db_host = node['web-app']['db_host']
-db_user = node['web-app']['db_user']
-db_pwd = node['web-app']['db_pwd']
-db_name = node['web-app']['db_name']
+db_host = node['web-app-aa']['db_host']
+db_user = node['web-app-aa']['db_user']
+db_pwd = node['web-app-aa']['db_pwd']
+db_name = node['web-app-aa']['db_name']
 
 # install apache2, php, php-mysql packages
 package ['apache2', 'php', 'php-mysql'] do
